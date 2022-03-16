@@ -11,6 +11,7 @@ import 'video-react/dist/video-react.css';
 import Header from './component/Header'; 
 import HomePage from './component/home';
 import CompanyProfile from "./component/CompanyProfile";
+import Contactus from "./component/Contactus";
 import Footer from './component/Footer';
  
 function App() {
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="about-us/company-profile" element={<CompanyProfile />} />
+          <Route path="contact-us" element={<Contactus />} />
         </Routes>
         <Footer/>
     </Router> 

@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'; 
 import {Link} from "react-router-dom";
 import banner_image from '../images/inner-banner-1.jpg';
@@ -21,7 +21,7 @@ export default function CompanyProfile() {
     <li> / </li>   
     <li> About us </li> 
     <li> / </li>
-    <li class="active">Company Profile</li>
+    <li className="active">Company Profile</li>
     </ul>
     </Col>
     </Row>
@@ -67,7 +67,7 @@ The unit is equipped with world-class machineries and equipments. The facility i
 <Col className='vison-mison row'>
 
 <Col className='col-lg-6'> 
-<Col className='vison'>
+<Col className='vison' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
 <img src={vison_icon}/>
 <h4>Vision</h4>
 <p>To provide a complete solution to customer requirements. To capture a signicant market share in the business of Metal Fabrication globally.<br></br>
@@ -76,7 +76,7 @@ We target to a wide range of industries like Railways, Aerospace, Defence, Ship 
 </Col> 
 
 <Col className='col-lg-6'> 
-<Col className='mison'>
+<Col className='mison' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
 <img src={mison_icon}/>
 <h4>Mission</h4>
 <p>To consistently deliver innovative and efcient contract manufacturing solutions that provide our customers with a competitive advantage.</p>

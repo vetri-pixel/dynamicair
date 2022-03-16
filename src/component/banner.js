@@ -19,7 +19,7 @@ function banner () {
           <span>Sheet Metal </span>
           <span>Fabrication</span>
           </h1>
-          <div class="comn-butn"><a href="">Read More</a><div></div></div>
+          <div className="comn-butn"><a href="">Read More</a><div></div></div>
           </Row>
         </Container>
       

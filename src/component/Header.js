@@ -39,7 +39,7 @@ export default function Header() {
             </NavDropdown>            
             <Nav.Link href="#">Clients</Nav.Link>
             <Nav.Link href="#">Testimonials</Nav.Link>
-            <Nav.Link href="#">Contact Us</Nav.Link>
+            <Nav><Link to='contact-us'>Contact Us</Link></Nav>
           </Nav>
         </Navbar.Collapse>
       </Container>
