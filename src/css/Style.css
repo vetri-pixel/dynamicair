@@ -67,7 +67,7 @@ a, a:hover{
 
 
 section{
-  padding: 70px 0px;
+  padding: 100px 0px;
 }
 
 .blue-bg{
@@ -420,8 +420,34 @@ ul.list-style1 li i{
   margin-bottom: 20px;
 }
 
+@media (max-width: 1400px){
+  .video-tager {height: 700px;}
+  .container, .container-lg, .container-md, .container-sm, .container-xl{max-width:1200px !important;}
+  .dynamic-metals ul li{width:85%;}
 
-@media (max-width: 960px){
+}
+
+@media (max-width: 1200px){
+  .dynamic-metals ul li {
+    width: 95%;
+  }
+  .products-sector br{display: none;}
+  body{overflow-x:hidden;}
+  .main-box {
+    padding: 25px 14px 25px 15px; 
+    min-height: 295px;
+  }
+  .industries-serving ul li{width:24%;margin-bottom: 25px;}
+  .banner-liner h1{font-size:40px;line-height: 55px;}
+  .banner-liner h1 span{font-size:40px;line-height: 55px;}
+  .video-tager {height:500px;}
+  .navbar-nav a {
+    margin-left: 35px;}
+}
+  @media (max-width: 1000px){
+  
+  .about-section{}
+  
   .carousel .slide .legend{
     font-size: 36px !important;
   }
