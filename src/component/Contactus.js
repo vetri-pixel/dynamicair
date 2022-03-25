@@ -3,6 +3,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import {Link} from "react-router-dom";
 import banner_image from '../images/inner-banner-2.jpg';
 import Addressmap from './Addressmap';
+import { FaRegBuilding } from "react-icons/fa";
+import { RiBuilding4Line } from "react-icons/ri";
+import { AiOutlineMail } from "react-icons/ai";
+import { FiPhoneCall } from "react-icons/fi";
 
 export default function Contactus() {
   return (
@@ -35,8 +39,8 @@ export default function Contactus() {
     <Col className='cont-usall'>
     <Row>
 
-    <Col className='col-lg-7'>
-    <Col className='get-intoch'>
+    <Col className='col-lg-7 bg-white'>
+    <Col className='get-intoch' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
     <div className="common-second-title"><h3>Get in Touch</h3></div>    
     <div className="row">
     <div className="col-sm-12 col-md-6 col-lg-6">
@@ -46,7 +50,7 @@ export default function Contactus() {
     <input type="email" className="form-control" placeholder="Enter your Mail" />
     </div>
     <div className="col-sm-12 col-md-6 col-lg-6">
-    <input type="text" className="form-control" placeholder="Enter your Pgone Number" />
+    <input type="text" className="form-control" placeholder="Enter your Phone Number" />
     </div>
     <div className="col-sm-12 col-md-6 col-lg-6">
     <input type="text" className="form-control" placeholder="Enter your Location" />
@@ -60,8 +64,22 @@ export default function Contactus() {
     </Col> 
 
     <Col className='col-lg-5 p-0'>
-    <Col className='adress-layr'>
-    <div className="common-second-title white"><h3>Reach Us</h3></div>     
+    <Col className='adress-layr' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+    <div className="common-second-title white"><h3>Reach Us</h3></div>  
+    <ul>
+    <li><FaRegBuilding />
+    <span>No.4, Boopathy Nagar, <br></br>
+    Industrial Estate, <br></br>
+    Keelkattalai, Chennai - 600117.</span></li> 
+    <li><RiBuilding4Line />
+    <span>No.123, Satharai Village <br></br>
+    Near Mappedu Koot Road, <br></br>
+    Thiruvallur District, Chennai - 631402.</span></li>
+    <li><FiPhoneCall />
+    <span>044 2247445 / 46 / 48 | +91 8925202444</span></li>
+    <li><AiOutlineMail />
+    <span>marketing@dynamicair.in</span></li>
+    </ul>   
     </Col>       
     </Col> 
 

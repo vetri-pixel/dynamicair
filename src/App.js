@@ -10,7 +10,10 @@ import "slick-carousel/slick/slick-theme.css";
 import 'video-react/dist/video-react.css';
 import Header from './component/Header'; 
 import HomePage from './component/home';
+import Services from './component/Services';
 import CompanyProfile from "./component/CompanyProfile";
+import Products from "./component/Products";
+import Clients from "./component/Clients";
 import Contactus from "./component/Contactus";
 import Footer from './component/Footer';
  
@@ -23,7 +26,10 @@ function App() {
       <Header/>  
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="about-us/company-profile" element={<CompanyProfile />} />
+          <Route path="services" element={<Services />} />
+          <Route path="about-us" element={<CompanyProfile />} />
+          <Route path="products" element={<Products />} />
+          <Route path="clients" element={<Clients />} />
           <Route path="contact-us" element={<Contactus />} />
         </Routes>
         <Footer/>

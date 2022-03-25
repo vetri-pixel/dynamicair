@@ -5,6 +5,10 @@ import banner_image from '../images/inner-banner-1.jpg';
 import abt_rit_img from '../images/about-img-right.png';  
 import vison_icon from '../images/vision.png'; 
 import mison_icon from '../images/mission.png'; 
+import certi_1 from '../images/certificate-1.jpg'; 
+import certi_2 from '../images/certificate-2.jpg'; 
+import certi_3 from '../images/certificate-3.jpg'; 
+import certi_4 from '../images/certificate-4.jpg'; 
 
 export default function CompanyProfile() {
   return (
@@ -88,6 +92,36 @@ We target to a wide range of industries like Railways, Aerospace, Defence, Ship 
 
 </Row>
 </Container>
+</section>
+
+<section className='our-cetrefication text-center'>
+<Container>
+<Row className='align-items-center'>
+
+<Col className='col-lg-12'>
+
+<div className='common-title white' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
+    <h2>Certifications</h2>
+    </div> 
+
+    <div className='common-second-title white' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+    <h3>Lorem Ipsum is simply dummy  <br></br>
+    of the printing and typesetting industry</h3>
+    </div>
+
+<div className='certificates-funtoion'>
+<ul>
+<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><img src={certi_1}/></li>
+<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><img src={certi_2}/></li>
+<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><img src={certi_3}/></li>
+<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><img src={certi_4}/></li>
+</ul>
+</div>
+
+</Col>
+
+</Row>
+</Container>  
 </section>
 
 </div>

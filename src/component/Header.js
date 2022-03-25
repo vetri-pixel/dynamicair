@@ -25,19 +25,16 @@ export default function Header() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav><Link to='/'>Home</Link></Nav>
-            <NavDropdown title="Services" id="basic-nav-dropdown" renderMenuOnMount={true}>
+            {/* <NavDropdown title="Services" id="basic-nav-dropdown" renderMenuOnMount={true}>
               <NavDropdown.Item href="#">Service - 1</NavDropdown.Item> 
               <NavDropdown.Item href="#">Service - 2</NavDropdown.Item> 
               <NavDropdown.Item href="#">Service - 3</NavDropdown.Item> 
               <NavDropdown.Item href="#">Service - 4</NavDropdown.Item> 
-            </NavDropdown>
-            <Nav.Link href="#">Products</Nav.Link> 
-            <NavDropdown title="About Us" id="basic-nav-dropdown" renderMenuOnMount={true}>
-              <NavDropdown.Item><Link className='inn-lnk' to='about-us/company-profile'>Company Profile</Link></NavDropdown.Item> 
-              <NavDropdown.Item href="#">Certifications</NavDropdown.Item> 
-              <NavDropdown.Item href="#">Our Quality</NavDropdown.Item> 
-            </NavDropdown>            
-            <Nav.Link href="#">Clients</Nav.Link>
+            </NavDropdown> */}
+            <Nav><Link to='services'>Services</Link></Nav>
+            <Nav><Link to='products'>Products</Link></Nav>
+            <Nav><Link to='about-us'>About Us</Link></Nav>           
+            <Nav><Link to='clients'>Clients</Link></Nav>
             <Nav.Link href="#">Testimonials</Nav.Link>
             <Nav><Link to='contact-us'>Contact Us</Link></Nav>
           </Nav>
