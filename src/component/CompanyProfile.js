@@ -101,12 +101,11 @@ We target to a wide range of industries like Railways, Aerospace, Defence, Ship 
 <Col className='col-lg-12'>
 
 <div className='common-title white' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
-    <h2>Certifications</h2>
+    <h2>Accreditation</h2>
     </div> 
 
     <div className='common-second-title white' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-    <h3>Lorem Ipsum is simply dummy  <br></br>
-    of the printing and typesetting industry</h3>
+    <h3>Our Certifications</h3>
     </div>
 
 <div className='certificates-funtoion'>

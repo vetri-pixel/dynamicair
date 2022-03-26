@@ -3,6 +3,11 @@ import { Container, Row, Col } from 'react-bootstrap';
 import {Link} from "react-router-dom";
 import banner_image from '../images/inner-banner-5.jpg';  
 import service_image_1 from '../images/servce-1.jpg';  
+import service_image_2 from '../images/servce-2.jpg';  
+import service_image_3 from '../images/servce-3.jpg';  
+import service_image_4 from '../images/servce-4.jpg';  
+import service_image_5 from '../images/servce-5.jpg';  
+import service_image_6 from '../images/servce-6.jpg';  
 
 export default function Products() {
   return (
@@ -35,10 +40,10 @@ export default function Products() {
     <div className='col-lg-12 text-center'>
 
     <div className='common-title'>
-    <h2>Works Done</h2>
+    <h2>Services</h2>
     </div>
     <div className='common-second-title' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-    <h3>Enabling Highly Advanced Technology</h3>
+    <h3>Our Futuristic Technology <br></br> Solutions for a Dynamic Edge</h3>
     </div>
     <div className='common-third-title' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
     <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry </h4>
@@ -56,8 +61,8 @@ export default function Products() {
 
     <div className='col-lg-7 align-self-center'>
     <div className='servce-cnt left-prt text-start'>
-    <h4>Laser Cutting Machine 1</h4> 
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <h4>Metal Punching</h4> 
+    <p>Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers. Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers. Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers.</p>
     </div>
     </div>
     </Row>
@@ -67,14 +72,14 @@ export default function Products() {
     <Row>
     <div className='col-lg-7 align-self-center'>
     <div className='servce-cnt right-prt text-start'>
-    <h4>Laser Cutting Machine 1</h4> 
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <h4>Laser Cutting</h4> 
+    <p>Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers. Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers. Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers.</p>
     </div>
     </div>
 
     <div className='col-lg-5'>
     <div className='servce-img'>
-    <img src={service_image_1}/>
+    <img src={service_image_2}/>
     </div>
     </div>
     </Row>
@@ -84,22 +89,113 @@ export default function Products() {
     <Row>
     <div className='col-lg-5'>
     <div className='servce-img'>
-    <img src={service_image_1}/>
+    <img src={service_image_3}/>
     </div>
     </div>
 
     <div className='col-lg-7 align-self-center'>
     <div className='servce-cnt left-prt text-start'>
-    <h4>Laser Cutting Machine 1</h4> 
-    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    <h4>Laser Welding</h4> 
+    <p>Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers. Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers. Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers.</p>
+    </div>
+    </div>
+    </Row>
+    </div>  
+
+    <div className='servces'> 
+    <Row>
+    <div className='col-lg-7 align-self-center'>
+    <div className='servce-cnt right-prt text-start'>
+    <h4>Powder Coating</h4> 
+    <p>Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers. Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers. Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers.</p>
+    </div>
+    </div>
+
+    <div className='col-lg-5'>
+    <div className='servce-img'>
+    <img src={service_image_4}/>
     </div>
     </div>
     </Row>
     </div> 
 
+    <div className='servces'>
+    <Row>
+    <div className='col-lg-5'>
+    <div className='servce-img'>
+    <img src={service_image_5}/>
+    </div>
+    </div>
+
+    <div className='col-lg-7 align-self-center'>
+    <div className='servce-cnt left-prt text-start'>
+    <h4>Metal Forming</h4> 
+    <p>Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers. Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers. Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers.</p>
+    </div>
+    </div>
+    </Row>
+    </div>   
+
+    <div className='servces'> 
+    <Row>
+    <div className='col-lg-7 align-self-center'>
+    <div className='servce-cnt right-prt text-start'>
+    <h4>Machining</h4> 
+    <p>Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers. Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers. Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers.</p>
+    </div>
+    </div>
+
+    <div className='col-lg-5'>
+    <div className='servce-img'>
+    <img src={service_image_6}/>
+    </div>
+    </div>
+    </Row>
     </div>
 
     </div>
+
+    </div>
+
+    </Row>
+    </Container>
+    </section>
+
+    <section className='form-sector'>
+    <Container>
+    <Row>
+
+    <Col className='col-lg-12'>
+    <div className='form-major text-center'>
+    <div class="common-second-title white" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><h3> Quick Enquiry </h3></div>
+    <div className="row">
+    <div className="col-sm-12 col-md-6 col-lg-6">
+    <input type="text" className="form-control" placeholder="Enter your Name" />
+    </div>
+    <div className="col-sm-12 col-md-6 col-lg-6">
+    <input type="email" className="form-control" placeholder="Enter your Mail" />
+    </div>
+    <div className="col-sm-12 col-md-6 col-lg-6">
+    <input type="text" className="form-control" placeholder="Enter your Phone Number" />
+    </div>
+    <div className="col-sm-12 col-md-6 col-lg-6">
+    <select class="form-control jsrequired" id="state" name="state">
+	    <option value="">Select your Service</option>
+	    <option value="Metal Punching">Metal Punching</option> 
+	    <option value="Laser Cutting">Laser Cutting</option> 
+	    <option value="Laser Welding">Laser Welding</option> 
+	    <option value="Powder Coating">Powder Coating</option> 
+	    <option value="Metal Forming">Metal Forming</option> 
+	    <option value="Machining">Machining</option> 
+	  </select>
+    </div>
+    <div className="col-sm-12 col-md-12 col-lg-12">
+    <textarea className="form-control" placeholder="Additional Message"></textarea>
+    <button type="submit">Submit</button>
+    </div>
+    </div> 
+    </div>
+    </Col>
 
     </Row>
     </Container>

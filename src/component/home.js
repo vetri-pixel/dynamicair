@@ -28,6 +28,7 @@ import serve_6 from '../images/serve-6.png';
 import cln_imge from '../images/testimonial-img.jpg';
 import cln_imge_1 from '../images/testimonial-1.jpg';  
 import Slider from "react-slick";
+import {Link} from "react-router-dom";
 
  
 function home () {
@@ -70,9 +71,9 @@ function home () {
     </div>
 
     <div className='comn-butn'>
-    <a href="">
+    <Link to='about-us'>
     Read More    
-    </a>
+    </Link>
     </div>
 
     </Col>
@@ -91,15 +92,15 @@ function home () {
     <div className='col-lg-3'>
     <div className='main-box text-start' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
     <img src={choose_us_1}/>
-    <h4>Enhanced capability</h4>
-    <p>reinforced by full-fledged German technology machines</p>
+    <h4>Enhanced Capability</h4>
+    <p>Reinforced by full-fledged German technology machines</p>
     </div>    
     </div>  
 
     <div className='col-lg-3'>
     <div className='main-box text-start' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
     <img src={choose_us_2}/>
-    <h4>Modernised unit</h4>
+    <h4>Modernised Unit</h4>
     <p>Spread over 1,30,000 Sq.ft. & equipped with futuristic equipment</p>
     </div>    
     </div>  
@@ -107,7 +108,7 @@ function home () {
     <div className='col-lg-3'>
     <div className='main-box text-start' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
     <img src={choose_us_3}/>
-    <h4>One-stop shop</h4>
+    <h4>One-stop Shop</h4>
     <p>Fabrication of all kinds of sheet metal solutions under one roof</p>
     </div>    
     </div>  
@@ -150,11 +151,11 @@ function home () {
     <div className='maj-content'>
     <span>
     <h4>Metal Punching</h4>
-    <p>Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers.</p>
+    <p>Our punching department delivers quality-assured parts and has lights-out automation capabilities.</p>
     </span>
     </div>
     <div className="maj-content-1">
-    <a href="">Read More</a>
+    <Link to='services'>Read More</Link>
     </div>
     </div>
     </div> 
@@ -165,11 +166,12 @@ function home () {
     <div className='maj-content'>
     <span>
     <h4>Laser Cutting</h4>
-    <p>Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers.</p>
+    <p>We offer a variety of valuable services, from design assistance to shipping and logistics.
+</p>
     </span>
     </div>
     <div className="maj-content-1">
-    <a href="">Read More</a>
+    <Link to='services'>Read More</Link>
     </div>
     </div>
     </div>   
@@ -180,11 +182,12 @@ function home () {
     <div className='maj-content'>
     <span>
     <h4>Laser Welding</h4>
-    <p>Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers.</p>
+    <p>Our certified welding department has MIG, TIG, and robotic welding capabilities.
+</p>
     </span>
     </div>
     <div className="maj-content-1">
-    <a href="">Read More</a>
+    <Link to='services'>Read More</Link>
     </div>
     </div>
     </div> 
@@ -195,11 +198,12 @@ function home () {
     <div className='maj-content'>
     <span>
     <h4>Powder Coating</h4>
-    <p>Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers.</p>
+    <p>Our painting and powder coating services provide a wide range of durable finishes and textures.
+</p>
     </span>
     </div>
     <div className="maj-content-1">
-    <a href="">Read More</a>
+    <Link to='services'>Read More</Link>
     </div>
     </div>
     </div> 
@@ -210,11 +214,12 @@ function home () {
     <div className='maj-content'>
     <span>
     <h4>Metal Forming</h4>
-    <p>Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers.</p>
+    <p>From our robotic bending systems to our lights-out automation, we have the equipment and capacity to meet any forming needs.
+</p>
     </span>
     </div>
     <div className="maj-content-1">
-    <a href="">Read More</a>
+    <Link to='services'>Read More</Link>
     </div>
     </div>
     </div>   
@@ -225,11 +230,12 @@ function home () {
     <div className='maj-content'>
     <span>
     <h4>Machining</h4>
-    <p>Laser cutting and CNC bending are the two most important services LancerFab Tech Services offers.</p>
+    <p>We are capable of machining a vast assortment of parts and assemblies with guaranteed quality.
+</p>
     </span>
     </div>
     <div className="maj-content-1">
-    <a href="">Read More</a>
+    <Link to='services'>Read More</Link>
     </div>
     </div>
     </div>    

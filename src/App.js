@@ -14,6 +14,7 @@ import Services from './component/Services';
 import CompanyProfile from "./component/CompanyProfile";
 import Products from "./component/Products";
 import Clients from "./component/Clients";
+import Technologies from "./component/Technologies";
 import Contactus from "./component/Contactus";
 import Footer from './component/Footer';
  
@@ -30,6 +31,7 @@ function App() {
           <Route path="about-us" element={<CompanyProfile />} />
           <Route path="products" element={<Products />} />
           <Route path="clients" element={<Clients />} />
+          <Route path="technologies" element={<Technologies />} />
           <Route path="contact-us" element={<Contactus />} />
         </Routes>
         <Footer/>

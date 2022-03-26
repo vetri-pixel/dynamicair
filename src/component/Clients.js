@@ -51,7 +51,8 @@ export default function Clients() {
     <div class="common-title"><h2>Valuable Clients</h2></div>
     <div class="common-second-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><h3>Trusted by India’s Leading Names</h3></div>
     <div class="common-third-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-    <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry <br></br>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</h4></div> 
+    <h4>We have the know-how, capability and capacity to take up<br></br>
+manufacturing and engineering challenges across various industries.</h4></div> 
     </div>
 
     <div className='clnete-lsts'>

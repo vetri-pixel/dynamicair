@@ -4,6 +4,13 @@ import {Link} from "react-router-dom";
 import banner_image from '../images/inner-banner-4.jpg';  
 import product_img_1 from '../images/pro-1.jpg';  
 import product_img_1_1 from '../images/pro-1-1.jpg';  
+import side from '../images/products/sidewall.jpg';
+import underframe from '../images/products/underframe.jpg';
+import roof from '../images/products/roof.jpg';
+import endwall from '../images/products/endwall.jpg';
+import nosecone from '../images/products/nosecone.jpg';
+import doors from '../images/products/railway-doors.jpg';
+import hvac from '../images/products/hvac-prodcuts.jpg';
 
 export default function Products() {
   return (
@@ -37,47 +44,55 @@ export default function Products() {
 
     <div class="industries-serving" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">
     <div class="common-title"><h2>Dynamic Air Products</h2></div>
-    <div class="common-second-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><h3>Trusted by India’s Leading Companies</h3></div>
+    <div class="common-second-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><h3>Our Dynamic Affinity
+with Metals</h3></div>
     <div class="common-third-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-    <h4>Railways – Fabrication (Mild Steel, Stainless Steel, Aluminium)</h4></div> 
+    <h4>Our innovative products & solutions have put forth a wide spectrum of <br></br>
+industrial and engineering processes across industries.</h4></div> 
     </div>
 
     <div className='products-lstings'>
     <ul>
     <li>
     <a href="">
-    <img src={product_img_1}/>
+    <img src={side}/>
     <span> Side Wall </span>
     </a>
     </li>
     <li>
     <a href="">
-    <img src={product_img_1}/>
+    <img src={roof}/>
     <span> Roof </span>
     </a>
     </li>
     <li>
     <a href="">
-    <img src={product_img_1}/>
+    <img src={underframe}/>
     <span> Underframe </span>
     </a>
     </li>
     <li>
     <a href="">
-    <img src={product_img_1}/>
+    <img src={endwall}/>
     <span> End Wall </span>
     </a>
     </li>
     <li>
     <a href="">
-    <img src={product_img_1}/>
+    <img src={nosecone}/>
     <span> Nose Cone </span>
     </a>
     </li>
     <li>
     <a href="">
-    <img src={product_img_1}/>
+    <img src={doors}/>
     <span> Railway Doors & Windows </span>
+    </a>
+    </li>
+    <li>
+    <a href="">
+    <img src={hvac}/>
+    <span> HVAC Air Distribution Products </span>
     </a>
     </li>
     </ul>
