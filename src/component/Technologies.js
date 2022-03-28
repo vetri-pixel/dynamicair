@@ -72,8 +72,8 @@ export default function Products() {
     <Row>
 
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_1}/>
     <div className='tech-cont'>
@@ -85,11 +85,11 @@ export default function Products() {
     </p>
     </div>
     </div>
-    </Col>
-    </Col> 
+    </div>
+    </div> 
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_2}/>
     <div className='tech-cont'>
@@ -101,11 +101,11 @@ export default function Products() {
     </p>
     </div>
     </div>
-    </Col>
-    </Col> 
+    </div>
+    </div> 
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_3}/>
     <div className='tech-cont'>
@@ -117,11 +117,11 @@ export default function Products() {
     </p>
     </div>
     </div>
-    </Col>
-    </Col> 
+    </div>
+    </div> 
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_4}/>
     <div className='tech-cont'>
@@ -132,11 +132,11 @@ export default function Products() {
     </p>
     </div>
     </div>
-    </Col>
-    </Col>  
+    </div>
+    </div>  
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_5}/>
     <div className='tech-cont'>
@@ -148,11 +148,11 @@ export default function Products() {
     </p>
     </div>
     </div>
-    </Col>
-    </Col> 
+    </div>
+    </div> 
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_6}/>
     <div className='tech-cont'>
@@ -164,11 +164,11 @@ export default function Products() {
     </p>
     </div>
     </div>
-    </Col>
-    </Col> 
+    </div>
+    </div> 
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_7}/>
     <div className='tech-cont'>
@@ -179,11 +179,11 @@ export default function Products() {
     </p>
     </div>
     </div>
-    </Col>
-    </Col> 
+    </div>
+    </div> 
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_8}/>
     <div className='tech-cont'>
@@ -194,11 +194,11 @@ export default function Products() {
     </p>
     </div>
     </div>
-    </Col>
-    </Col>   
+    </div>
+    </div>   
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_9}/>
     <div className='tech-cont'>
@@ -209,22 +209,22 @@ export default function Products() {
     </p>
     </div>
     </div>
-    </Col>
-    </Col>
+    </div>
+    </div>
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_10}/>
     <div className='tech-cont'>
     <h4>Aluminium Profile Cutting</h4> 
     </div>
     </div>
-    </Col>
-    </Col>     
+    </div>
+    </div>     
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_11}/>
     <div className='tech-cont'>
@@ -234,11 +234,11 @@ export default function Products() {
     </p>
     </div>
     </div>
-    </Col>
-    </Col>   
+    </div>
+    </div>   
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_12}/>
     <div className='tech-cont'>
@@ -250,11 +250,11 @@ export default function Products() {
     </p>
     </div>
     </div>
-    </Col>
-    </Col>     
+    </div>
+    </div>     
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_13}/>
     <div className='tech-cont'>
@@ -266,11 +266,11 @@ Min. Ø - 190mm<br></br>
     </p>
     </div>
     </div>
-    </Col>
-    </Col>   
+    </div>
+    </div>   
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_14}/>
     <div className='tech-cont'>
@@ -282,11 +282,11 @@ Min. Ø - 190mm<br></br>
     </p>
     </div>
     </div>
-    </Col>
-    </Col>   
+    </div>
+    </div>   
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_15}/>
     <div className='tech-cont'>
@@ -298,11 +298,11 @@ Min. Ø - 190mm<br></br>
     </p>
     </div>
     </div>
-    </Col>
-    </Col>   
+    </div>
+    </div>   
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_16}/>
     <div className='tech-cont'>
@@ -312,11 +312,11 @@ Min. Ø - 190mm<br></br>
     </p>
     </div>
     </div>
-    </Col>
-    </Col>   
+    </div>
+    </div>   
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_17}/>
     <div className='tech-cont'>
@@ -326,11 +326,11 @@ Min. Ø - 190mm<br></br>
     </p>
     </div>
     </div>
-    </Col>
-    </Col>   
+    </div>
+    </div>   
 
-    <Col className='col-lg-6'> 
-    <Col className='tech-props'>
+    <div className='col-lg-6'> 
+    <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_18}/>
     <div className='tech-cont'>
@@ -340,8 +340,8 @@ Min. Ø - 190mm<br></br>
     </p>
     </div>
     </div>
-    </Col>
-    </Col>
+    </div>
+    </div>
 
     </Row>
 

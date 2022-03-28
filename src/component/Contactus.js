@@ -36,11 +36,11 @@ export default function Contactus() {
     <Container>
     <Row> 
 
-    <Col className='cont-usall'>
+    <div className='cont-usall'> 
     <Row>
 
-    <Col className='col-lg-7 bg-white'>
-    <Col className='get-intoch' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+    <div className='col-lg-7 bg-white'>
+    <div className='get-intoch' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
     <div className="common-second-title"><h3>Get in Touch</h3></div>    
     <div className="row">
     <div className="col-sm-12 col-md-6 col-lg-6">
@@ -60,11 +60,11 @@ export default function Contactus() {
     <button type="submit">Submit</button>
     </div>
     </div>    
-    </Col>    
-    </Col> 
+    </div>    
+    </div> 
 
-    <Col className='col-lg-5 p-0'>
-    <Col className='adress-layr' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+    <div className='col-lg-5 p-0'>
+    <div className='adress-layr' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
     <div className="common-second-title white"><h3>Reach Us</h3></div>  
     <ul>
     <li><FaRegBuilding />
@@ -80,11 +80,11 @@ export default function Contactus() {
     <li><AiOutlineMail />
     <span>marketing@dynamicair.in</span></li>
     </ul>   
-    </Col>       
-    </Col> 
+    </div>       
+    </div> 
 
     </Row>
-    </Col>  
+    </div>  
 
     </Row>    
     </Container>    

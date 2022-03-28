@@ -36,7 +36,7 @@ export default function CompanyProfile() {
 <section className="section about-section">
 <Container>
 <Row className='align-items-center'>
-<Col className='col-lg-6' data-aos="fade-right" data-aos-duration="1000">
+<div className='col-lg-6' data-aos="fade-right" data-aos-duration="1000">
 
 <div className='common-title'>
 <h2>About Us</h2>
@@ -57,38 +57,38 @@ Our infrastructure includes a full-fledged German technology machines for high e
 The unit is equipped with world-class machineries and equipments. The facility is backed-up by a well organized work structure & dedicated QA in place.</p>
 </div> 
 
-</Col>
+</div>
 
-<Col className='col-lg-6' data-aos="fade-left" data-aos-duration="1500">
+<div className='col-lg-6' data-aos="fade-left" data-aos-duration="1500">
 
 <div className="abtou-img text-end">
 <img src={abt_rit_img}/>
 </div>
 
-</Col>
+</div>
 
-<Col className='col-lg-12'>
-<Col className='vison-mison row'>
+<div className='col-lg-12'>
+<div className='vison-mison row'>
 
-<Col className='col-lg-6'> 
-<Col className='vison' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
+<div className='col-lg-6'> 
+<div className='vison' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
 <img src={vison_icon}/>
 <h4>Vision</h4>
 <p>To provide a complete solution to customer requirements. To capture a signicant market share in the business of Metal Fabrication globally.<br></br>
 We target to a wide range of industries like Railways, Aerospace, Defence, Ship Building, Earthmoving & Construction Equipments, Automotive, Elevators, Electrical Switchgear, Medical Equipments, Chemical & Food Processing, Power Plant, Solar Power Plant Telecommunication and Instrumentation, Textile & General Engineering.</p>
-</Col>
-</Col> 
+</div>
+</div> 
 
-<Col className='col-lg-6'> 
-<Col className='mison' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+<div className='col-lg-6'> 
+<div className='mison' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
 <img src={mison_icon}/>
 <h4>Mission</h4>
 <p>To consistently deliver innovative and efcient contract manufacturing solutions that provide our customers with a competitive advantage.</p>
-</Col>
-</Col> 
+</div>
+</div> 
 
-</Col>
-</Col>
+</div>
+</div>
 
 </Row>
 </Container>

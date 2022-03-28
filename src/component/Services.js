@@ -54,7 +54,7 @@ export default function Products() {
     <div className='servces no-bricks'>
     <Row>
     <div className='col-lg-5'>
-    <div className='servce-img'>
+    <div className='servce-img left-prt'>
     <img src={service_image_1}/>
     </div>
     </div>
@@ -78,7 +78,7 @@ export default function Products() {
     </div>
 
     <div className='col-lg-5'>
-    <div className='servce-img'>
+    <div className='servce-img right-prt'>
     <img src={service_image_2}/>
     </div>
     </div>
@@ -88,7 +88,7 @@ export default function Products() {
     <div className='servces'>
     <Row>
     <div className='col-lg-5'>
-    <div className='servce-img'>
+    <div className='servce-img left-prt'>
     <img src={service_image_3}/>
     </div>
     </div>
@@ -112,7 +112,7 @@ export default function Products() {
     </div>
 
     <div className='col-lg-5'>
-    <div className='servce-img'>
+    <div className='servce-img right-prt'>
     <img src={service_image_4}/>
     </div>
     </div>
@@ -122,7 +122,7 @@ export default function Products() {
     <div className='servces'>
     <Row>
     <div className='col-lg-5'>
-    <div className='servce-img'>
+    <div className='servce-img left-prt'>
     <img src={service_image_5}/>
     </div>
     </div>
@@ -145,7 +145,7 @@ export default function Products() {
     </div>
     </div>
 
-    <div className='col-lg-5'>
+    <div className='col-lg-5 right-prt'>
     <div className='servce-img'>
     <img src={service_image_6}/>
     </div>

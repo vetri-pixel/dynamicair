@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Row, Col, Navbar, Nav, NavDropdown } from 'react-bootstrap'; 
 import logo from '../images/logo.png';
 import {Link} from "react-router-dom";
+import { FiMail } from "react-icons/fi";
+import { FiPhoneCall } from "react-icons/fi";
 export default function Header() {
   return (
     <div className=''>
@@ -21,7 +23,13 @@ export default function Header() {
       <Container>
         <Navbar.Brand href="#home" ><Link className='inn-lnk' to='/'><img src={logo} className="App-logo" alt="Dynamic Air Logo" width="136" height="73"/></Link>
         </Navbar.Brand>
+        <div className='mob-specs'>
+        <ul>
+        <li><a href="mailto:Marketing@dynamicair.in"><FiMail /></a></li>
+        <li><a href="tel:"><FiPhoneCall /></a></li>
+        </ul>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        </div>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
             <Nav><Link to='/'>Home</Link></Nav>

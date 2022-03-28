@@ -377,7 +377,8 @@ section.copywrite{padding:10px 0px;}
 
 .main-menu.fixed .navbar{padding: 0px !important;transition: all 0.1s ease;}
 
-.banner-liner h1{color:#fff;font-family: 'Poppins', sans-serif !important;font-weight: 300;font-size: 60px;text-transform: uppercase;line-height: 82px;position: relative;padding-left: 20px;}
+.banner-liner h1{color:#fff;font-family: 'Poppins', sans-serif !important;font-weight: 300;font-size: 60px;text-transform: uppercase;line-height: 82px;position: relative;padding-left: 20px;
+  margin-bottom: 0px;}
 
 .banner-liner h1::before {
   position: absolute;
@@ -555,4 +556,18 @@ section.copywrite{padding:10px 0px;}
       color: #ffffff;}
 
       .tech-cont p{color:#fff;}
+
+      .mob-specs{position: relative;}
+      .mob-specs ul {display: none;
+        position: absolute;
+        width: 165px;
+        right: 0;
+        content: "";
+        height: 100px;
+        top: 3px;
+        z-index: -1;
+      }
+      .mob-specs ul li{display: inline-block;margin-left: 15px;}
+      .mob-specs ul li svg{font-size: 26px;color:#898989;}
+
       

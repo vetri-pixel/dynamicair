@@ -18,8 +18,7 @@ function banner () {
           <h1>Excellence In 
           <span>Sheet Metal </span>
           <span>Fabrication</span>
-          </h1>
-          <div className="comn-butn"><a href="">Read More</a><div></div></div>
+          </h1> 
           </Row>
         </Container>
       
