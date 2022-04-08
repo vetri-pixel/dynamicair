@@ -17,12 +17,13 @@ import Clients from "./component/Clients";
 import Technologies from "./component/Technologies";
 import Contactus from "./component/Contactus";
 import Footer from './component/Footer';
- 
+
 function App() {
 
     return ( 
         
       <div className = "App"> 
+     
         <Router>
       <Header/>  
         <Routes>
@@ -36,6 +37,7 @@ function App() {
         </Routes>
         <Footer/>
     </Router> 
+    
       </div>
     );
 }

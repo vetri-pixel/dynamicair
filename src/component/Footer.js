@@ -1,11 +1,14 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap'; 
 import { FaFacebookF, FaTwitter, FaYoutube } from "react-icons/fa";
+import ScrollToTop from './ScrollToTop';
+import {Link} from "react-router-dom";
 
 export default function Footer() {
   return (
     <div>
         <section className='footer'>
+    <ScrollToTop>
     <Container>
     <Row>
     
@@ -42,26 +45,32 @@ export default function Footer() {
     <div className='foot-lnks'>
     <h4>Quick Links</h4>
     <ul>
-    <li><a href="">Home</a></li> 
-    <li><a href="">About Us</a></li> 
+    <li><Link to='/'>Home</Link></li> 
+    <li><Link to='/about-us'>About Us</Link></li> 
+    <li><Link to='/technologies'>Technologies</Link></li> 
+    <li><Link to='/products'>Products</Link></li> 
+    <li><Link to='/clients'>Clients</Link></li> 
+    <li><Link to='/contact-us'>Contact Us</Link></li> 
+    
+    {/* <li><a href="">About Us</a></li> 
     <li><a href="">Our Team</a></li> 
     <li><a href="">Clients</a></li> 
     <li><a href="">Testimonials</a></li> 
-    <li><a href="">Contact Us</a></li>    
+    <li><a href="">Contact Us</a></li>     */}
     </ul>
     </div>     
     </div>
     
     <div className='col-lg-4'>
     <div className='foot-lnks'>
-    <h4>Solutions</h4>
+    <h4>Services</h4>
     <ul>
-    <li><a href="">Metal Punching</a></li> 
-    <li><a href="">Laser Cutting</a></li> 
-    <li><a href="">Metal Forming</a></li> 
-    <li><a href="">Welding</a></li> 
-    <li><a href="">Powder Coating</a></li> 
-    <li><a href="">Machining</a></li>    
+    <li><a href="services#metal-punching">Metal Punching</a></li> 
+    <li><a href="services#laser-cutting">Laser Cutting</a></li> 
+    <li><a href="services#metal-forming">Metal Forming</a></li> 
+    <li><a href="services#welding">Welding</a></li> 
+    <li><a href="services#powder-coating">Powder Coating</a></li> 
+    <li><a href="services#machining">Machining</a></li>    
     </ul>
     </div>     
     </div>
@@ -71,6 +80,7 @@ export default function Footer() {
     
     </Row>
     </Container>   
+    </ScrollToTop>
     </section>
 
     <section className='copywrite text-center'>
@@ -81,6 +91,7 @@ export default function Footer() {
 
     </Row>
     </Container>
+   
     </section>
     </div>
   )

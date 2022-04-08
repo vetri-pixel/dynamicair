@@ -49,6 +49,8 @@ with Metals</h3></div>
     <div class="common-third-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
     <h4>Our innovative products & solutions have put forth a wide spectrum of <br></br>
 industrial and engineering processes across industries.</h4></div> 
+<h5>Railway - Fabrication</h5>
+<p>We produce state-of-the-art metal parts for railway trains in compliance with<br></br> international quality norms using superior grade raw material</p>
     </div>
 
     <div className='products-lstings'>
@@ -89,6 +91,13 @@ industrial and engineering processes across industries.</h4></div>
     <span> Railway Doors & Windows </span>
     </a>
     </li>
+    </ul>
+    </div>
+
+    <div className='products-lstings havoc'> 
+    <ul>
+    <h5>HVAC - Air Distribution Products</h5>
+    <p>From grills to diffusers, dampers and doors, Dynamic Air engineers a durable <br></br> and qualitatively superior gamut of engineering products </p>
     <li>
     <a href="">
     <img src={hvac}/>
@@ -96,12 +105,10 @@ industrial and engineering processes across industries.</h4></div>
     </a>
     </li>
     </ul>
+    
     </div>
 
     </div>
-
-
-
     </Row>   
     </Container> 
     </section>

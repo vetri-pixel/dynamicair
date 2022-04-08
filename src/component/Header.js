@@ -4,6 +4,8 @@ import logo from '../images/logo.png';
 import {Link} from "react-router-dom";
 import { FiMail } from "react-icons/fi";
 import { FiPhoneCall } from "react-icons/fi";
+import ScrollToTop from './ScrollToTop';
+
 export default function Header() {
   return (
     <div className=''>
@@ -19,6 +21,7 @@ export default function Header() {
     </div>
     
     <div className='main-menu'>
+    <ScrollToTop>
     <Navbar expand="lg" fixed="top">
       <Container>
         <Navbar.Brand href="#home" ><Link className='inn-lnk' to='/'><img src={logo} className="App-logo" alt="Dynamic Air Logo" width="136" height="73"/></Link>
@@ -49,6 +52,7 @@ export default function Header() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
+    </ScrollToTop>
     </div>
     </div>
   )

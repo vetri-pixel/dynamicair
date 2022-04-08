@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container, Row, Col } from 'react-bootstrap'; 
 import {Link} from "react-router-dom";
 import banner_image from '../images/inner-banner-2.jpg';
@@ -7,8 +7,16 @@ import { FaRegBuilding } from "react-icons/fa";
 import { RiBuilding4Line } from "react-icons/ri";
 import { AiOutlineMail } from "react-icons/ai";
 import { FiPhoneCall } from "react-icons/fi";
+import { FormInput } from './FormInput';
 
 export default function Contactus() {
+    const [name, setName] = useState();
+    const handleSubmit = (event) => {
+        event.preventDefault();
+        console.log(event)
+        alert(`The name you entered was:`)
+    }
+
   return (
     <div>
 
@@ -38,27 +46,29 @@ export default function Contactus() {
 
     <div className='cont-usall'> 
     <Row>
-
+    
     <div className='col-lg-7 bg-white'>
     <div className='get-intoch' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
     <div className="common-second-title"><h3>Get in Touch</h3></div>    
     <div className="row">
+    <form onSubmit={handleSubmit}>
     <div className="col-sm-12 col-md-6 col-lg-6">
-    <input type="text" className="form-control" placeholder="Enter your Name" />
+        <FormInput required={true} type="text" label="name" onChange={(e) => console.log('sdfsdfds')} placeholder="Enter your name"/>
     </div>
     <div className="col-sm-12 col-md-6 col-lg-6">
-    <input type="email" className="form-control" placeholder="Enter your Mail" />
+        <FormInput required={true} type="email" label="email"   placeholder="Enter your mail"/>
     </div>
     <div className="col-sm-12 col-md-6 col-lg-6">
-    <input type="text" className="form-control" placeholder="Enter your Phone Number" />
+        <FormInput required={true} type="number" label="phone number"  placeholder="Enter your phone number"/>
     </div>
     <div className="col-sm-12 col-md-6 col-lg-6">
-    <input type="text" className="form-control" placeholder="Enter your Location" />
+        <FormInput required={false} type="text" label="location"   placeholder="Enter your location"/>
     </div>
     <div className="col-sm-12 col-md-12 col-lg-12">
-    <textarea className="form-control" placeholder="Enter your Message"></textarea>
+    <textarea className="form-control" placeholder="Enter your message"></textarea>
     <button type="submit">Submit</button>
     </div>
+    </form>
     </div>    
     </div>    
     </div> 

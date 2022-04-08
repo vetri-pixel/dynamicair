@@ -492,6 +492,9 @@ section.copywrite{padding:10px 0px;}
 
     .products-lstings ul{margin: 0px;padding: 0px;margin-top:50px;}
     .products-lstings ul li{display:inline-block;margin: 15px 20px;padding: 0px;width:30%;}
+
+    .products-lstings.havoc ul li{display:inline-block;margin: 15px 20px;padding: 0px;width:60%;}
+
     .products-lstings ul li span{display:block;margin-top: 15px;font-family: 'Poppins', sans-serif !important;font-weight: 400;font-size: 18px;color: #6d6e71;}
 
     .products-lstings ul li img{width:100%;}
@@ -501,6 +504,10 @@ section.copywrite{padding:10px 0px;}
       box-shadow: 0px 0px 21px 1px rgba(0,0,0,0.32);}
 
     .servicing-sector{margin:0 auto;width:90%;margin-top:60px;}
+
+    .servce-cnt span{font-family: 'Poppins', sans-serif !important;
+      font-weight: 400;
+      color: var(--bs-body-color);font-size: 17px;margin-bottom:-10px;display: block;}
 
     .servce-cnt.left-prt{padding-left: 30px;}
     .servce-cnt.right-prt{padding-right: 30px;}
