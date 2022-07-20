@@ -9,6 +9,11 @@ import certi_1 from '../images/certificate-1.jpg';
 import certi_2 from '../images/certificate-2.jpg'; 
 import certi_3 from '../images/certificate-3.jpg'; 
 import certi_4 from '../images/certificate-4.jpg'; 
+import aarr from '../images/arrow.png'; 
+import certificates_1 from '../downloads/tuv.pdf'; 
+import certificates_2 from '../downloads/intertec.pdf'; 
+import certificates_3 from '../downloads/intertec-1.pdf'; 
+import certificates_4 from '../downloads/iris.pdf'; 
 
 export default function CompanyProfile() {
   return (
@@ -74,8 +79,12 @@ The unit is equipped with world-class machineries and equipments. The facility i
 <div className='vison' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
 <img src={vison_icon}/>
 <h4>Vision</h4>
-<p>To provide a complete solution to customer requirements. To capture a signicant market share in the business of Metal Fabrication globally.<br></br>
-We target to a wide range of industries like Railways, Aerospace, Defence, Ship Building, Earthmoving & Construction Equipments, Automotive, Elevators, Electrical Switchgear, Medical Equipments, Chemical & Food Processing, Power Plant, Solar Power Plant Telecommunication and Instrumentation, Textile & General Engineering.</p>
+<ul>
+<li><img src={aarr}/>To provide a complete solution to customer requirements. </li>
+<li><img src={aarr}/>To capture a signicant market share in the business of Metal Fabrication globally.</li>
+<li><img src={aarr}/>We target to a wide range of industries like Railways, Aerospace, Defence, Ship Building, Earthmoving & Construction Equipments, Automotive, Elevators, Electrical Switchgear, Medical Equipments, Chemical & Food Processing, Power Plant, Solar Power Plant Telecommunication and Instrumentation, Textile & General Engineering.
+</li>
+</ul>
 </div>
 </div> 
 
@@ -83,7 +92,7 @@ We target to a wide range of industries like Railways, Aerospace, Defence, Ship 
 <div className='mison' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
 <img src={mison_icon}/>
 <h4>Mission</h4>
-<p>To consistently deliver innovative and efcient contract manufacturing solutions that provide our customers with a competitive advantage.</p>
+<p>To consistently deliver innovative and efficient contract manufacturing solutions that provide our customers with a competitive advantage.</p>
 </div>
 </div> 
 
@@ -110,10 +119,10 @@ We target to a wide range of industries like Railways, Aerospace, Defence, Ship 
 
 <div className='certificates-funtoion'>
 <ul>
-<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><img src={certi_1}/></li>
-<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><img src={certi_2}/></li>
-<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><img src={certi_3}/></li>
-<li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><img src={certi_4}/></li>
+<a href={certificates_1} target="_blank"><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><img src={certi_1}/></li></a>
+<a href={certificates_2} target="_blank"><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><img src={certi_2}/></li></a>
+<a href={certificates_3} target="_blank"><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><img src={certi_3}/></li></a>
+<a href={certificates_4} target="_blank"><li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><img src={certi_4}/></li></a>
 </ul>
 </div>
 

@@ -1,7 +1,7 @@
 {
   "name": "dynamicair",
-  "version": "0.1.0",  
-  "homepage":"http://dynamicair.pixel-studios.net/",
+  "version": "0.1.0",
+  "homepage": "http://dynamicair.pixel-studios.net/",
   "private": true,
   "dependencies": {
     "@fancyapps/ui": "^4.0.26",

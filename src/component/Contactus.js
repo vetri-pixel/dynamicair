@@ -133,7 +133,7 @@ export default function Contactus() {
     <div className='col-lg-7 bg-white'>
     <div className='get-intoch' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
     <div className="common-second-title"><h3>Get in Touch</h3></div>    
-    <div>
+    {/* <div>
         <Form onSubmit={handleSubmit} method="POST" noValidate>
         {responseMessage.length > 0 && (
             <Alert
@@ -234,8 +234,8 @@ export default function Contactus() {
             {loading && <span className="loader" />}
           </FormSubmitButton>
         </Form>
-      </div>
-    {/* <div className="row">
+      </div> */}
+      <div className="row">
     <div className="col-sm-12 col-md-6 col-lg-6">
         <FormInput required={true} type="text" label="name" onChange={(e) => console.log('sdfsdfds')} placeholder="Enter your name"/>
     </div>
@@ -252,7 +252,7 @@ export default function Contactus() {
     <textarea className="form-control" placeholder="Enter your message"></textarea>
     <button type="submit">Submit</button>
     </div>
-    </div>     */}
+    </div>     
     </div>    
     </div> 
 

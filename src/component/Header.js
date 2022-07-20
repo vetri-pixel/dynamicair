@@ -42,11 +42,12 @@ export default function Header() {
               <NavDropdown.Item href="#">Service - 3</NavDropdown.Item> 
               <NavDropdown.Item href="#">Service - 4</NavDropdown.Item> 
             </NavDropdown> */}
+            <Nav><Link to='about-us'>About Us</Link></Nav>
             <Nav><Link to='services'>Services</Link></Nav>
             <Nav><Link to='products'>Products</Link></Nav> 
             <Nav><Link to='technologies'>Technologies</Link></Nav>
-            <Nav><Link to='about-us'>About Us</Link></Nav>           
             <Nav><Link to='clients'>Clients</Link></Nav> 
+            <Nav><Link to='career'>Career</Link></Nav> 
             <Nav><Link to='contact-us'>Contact Us</Link></Nav>
           </Nav>
         </Navbar.Collapse>

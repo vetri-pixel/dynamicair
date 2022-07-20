@@ -8,6 +8,8 @@ import service_image_3 from '../images/servce-3.jpg';
 import service_image_4 from '../images/servce-4.jpg';  
 import service_image_5 from '../images/servce-5.jpg';  
 import service_image_6 from '../images/servce-6.jpg';  
+import service_image_7 from '../images/servce-7.jpg';  
+import service_image_8 from '../images/servce-8.jpg';  
 
 export default function Products() {
   return (
@@ -46,44 +48,26 @@ export default function Products() {
     <h3>Our Futuristic Technology <br></br> Solutions for a Dynamic Edge</h3>
     </div>
     <div className='common-third-title' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-    <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry </h4>
+    <h4> </h4>
     </div>
 
     <div className='servicing-sector'>
 
-    <div className='servces no-bricks' id="metal-punching">
+    <div className='servces no-bricks' id='laser-cutting'> 
     <Row>
+
     <div className='col-lg-5'>
-    <div className='servce-img left-prt'>
-    <img src={service_image_1}/>
+    <div className='servce-img right-prt'>
+    <img src={service_image_2}/>
     </div>
     </div>
 
     <div className='col-lg-7 align-self-center'>
     <div className='servce-cnt left-prt text-start'>
-    <h4>Metal Punching</h4> 
-    <p><span>At Dynamic Air, we have the capability to meticulously produce quality parts with high speed precision, thereby lowering costs and lead times.</span><br></br>
-
-    We produce a variety of holes, countersinks, embossments, louvers, and other formed features such as automated turrets which can process complex parts. Only such parts with quality assurance and lights-out automation capabilities are delivered at Dynamic Air.</p>
-    </div>
-    </div>
-    </Row>
-    </div> 
-
-    <div className='servces' id='laser-cutting'> 
-    <Row>
-    <div className='col-lg-7 align-self-center'>
-    <div className='servce-cnt right-prt text-start'>
     <h4>Laser Cutting</h4> 
     <p><span>Dynamic Air utilizes fiber laser technology, which cuts faster and more accurately than traditional lasers. </span><br></br>
     
     A fully automated laser cutting department with loading and unloading capabilities and a highly experienced Engineering team uses nesting to increase sheet utilization, which results in less waste and lower costs.</p>
-    </div>
-    </div>
-
-    <div className='col-lg-5'>
-    <div className='servce-img right-prt'>
-    <img src={service_image_2}/>
     </div>
     </div>
     </Row>
@@ -91,11 +75,6 @@ export default function Products() {
 
     <div className='servces' id="welding">
     <Row>
-    <div className='col-lg-5'>
-    <div className='servce-img left-prt'>
-    <img src={service_image_3}/>
-    </div>
-    </div>
 
     <div className='col-lg-7 align-self-center'>
     <div className='servce-cnt left-prt text-start'>
@@ -104,28 +83,120 @@ export default function Products() {
     We are versatile in the use of materials and offer flexible and economical choices in Stud Welding, best suited for materials with low thermal conductivity and Spot Welding, that works by creating an electric arc between a fastener (stud) and the parent material.</p>
     </div>
     </div>
+
+    <div className='col-lg-5'>
+    <div className='servce-img left-prt'>
+    <img src={service_image_3}/>
+    </div>
+    </div>
+    
     </Row>
     </div>  
 
+      
+
+    <div className='servces' id="machining"> 
+    <Row>
+
+    <div className='col-lg-5 right-prt'>
+    <div className='servce-img'>
+    <img src={service_image_6}/>
+    </div>
+    </div>
+
+    <div className='col-lg-7 align-self-center'>
+    <div className='servce-cnt left-prt text-start'>
+    <h4>Spot Welding</h4> 
+    <p><span>At Dynamic Air, our experienced machining department has the capabilities to produce high-complexity parts and assemblies.  </span><br></br>
+    Our team specialises in precision-tolerance CNC machining and turning of small to medium-size parts. Our offerings include bearings, housings, pins, bushings, blocks, custom nuts, bolts, screws, and other special products.</p>
+    </div>
+    </div>
+
+    </Row>
+    </div> 
+
+    <div className='servces' id="welding">
+    <Row>
+
+    <div className='col-lg-7 align-self-center'>
+    <div className='servce-cnt left-prt text-start'>
+    <h4>Bending</h4> 
+    <p><span> </span><br></br> </p>
+    </div>
+    </div>
+
+    <div className='col-lg-5'>
+    <div className='servce-img left-prt'>
+    <img src={service_image_7}/>
+    </div>
+    </div>
+
+    </Row>
+    </div>  
+
+      
+
+    <div className='servces' id="machining"> 
+    <Row>
+
+    <div className='col-lg-5 right-prt'>
+    <div className='servce-img'>
+    <img src={service_image_8}/>
+    </div>
+    </div>
+
+    <div className='col-lg-7 align-self-center'>
+    <div className='servce-cnt left-prt text-start'>
+    <h4>Shearing</h4> 
+    <p><span> </span><br></br></p>
+    </div>
+    </div>
+
+    </Row>
+    </div>
+
+    <div className='servces no-bricks' id="metal-punching">
+    <Row>
+
+    <div className='col-lg-7 align-self-center'>
+    <div className='servce-cnt left-prt text-start'>
+    <h4>Turret Punching</h4> 
+    <p><span>At Dynamic Air, we have the capability to meticulously produce quality parts with high speed precision, thereby lowering costs and lead times.</span><br></br>
+
+    We produce a variety of holes, countersinks, embossments, louvers, and other formed features such as automated turrets which can process complex parts. Only such parts with quality assurance and lights-out automation capabilities are delivered at Dynamic Air.</p>
+    </div>
+    </div>
+
+    <div className='col-lg-5'>
+    <div className='servce-img left-prt'>
+    <img src={service_image_1}/>
+    </div>
+    </div>
+
+    </Row>
+    </div> 
+
     <div className='servces' id="powder-coating"> 
     <Row>
-    <div className='col-lg-7 align-self-center'>
-    <div className='servce-cnt right-prt text-start'>
-    <h4>Powder Coating</h4> 
-    <p><span>Dynamic Air uses the most eco-friendly method of painting that requires no solvents and generates little or no wastes.</span><br></br>
-    Through our Powder coating, which is a fully conveyor operated procedure, we utilize a six-stage pre-treatment system with separate dry-off and curing ovens for best quality, thus creating the widest range of finishes and textures that are more durable than ordinary paints.</p>
-    </div>
-    </div>
 
     <div className='col-lg-5'>
     <div className='servce-img right-prt'>
     <img src={service_image_4}/>
     </div>
     </div>
+
+    <div className='col-lg-7 align-self-center'>
+    <div className='servce-cnt left-prt text-start'>
+    <h4>Powder Coating</h4> 
+    <p><span>Dynamic Air uses the most eco-friendly method of painting that requires no solvents and generates little or no wastes.</span><br></br>
+    Through our Powder coating, which is a fully conveyor operated procedure, we utilize a six-stage pre-treatment system with separate dry-off and curing ovens for best quality, thus creating the widest range of finishes and textures that are more durable than ordinary paints.</p>
+    </div>
+    </div>
+
     </Row>
     </div> 
 
-    <div className='servces' id="metal-forming">
+    {/* <div className='servces' id="metal-forming">
     <Row>
     <div className='col-lg-5'>
     <div className='servce-img left-prt'>
@@ -141,25 +212,7 @@ export default function Products() {
     </div>
     </div>
     </Row>
-    </div>   
-
-    <div className='servces' id="machining"> 
-    <Row>
-    <div className='col-lg-7 align-self-center'>
-    <div className='servce-cnt right-prt text-start'>
-    <h4>Machining</h4> 
-    <p><span>At Dynamic Air, our experienced machining department has the capabilities to produce high-complexity parts and assemblies.  </span><br></br>
-    Our team specialises in precision-tolerance CNC machining and turning of small to medium-size parts. Our offerings include bearings, housings, pins, bushings, blocks, custom nuts, bolts, screws, and other special products.</p>
-    </div>
-    </div>
-
-    <div className='col-lg-5 right-prt'>
-    <div className='servce-img'>
-    <img src={service_image_6}/>
-    </div>
-    </div>
-    </Row>
-    </div>
+    </div>  */}
 
     </div>
 

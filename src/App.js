@@ -12,6 +12,7 @@ import Header from './component/Header';
 import HomePage from './component/home';
 import Services from './component/Services';
 import CompanyProfile from "./component/CompanyProfile";
+import Career from "./component/Career";
 import Products from "./component/Products";
 import Clients from "./component/Clients";
 import Technologies from "./component/Technologies";
@@ -33,6 +34,7 @@ function App() {
           <Route path="products" element={<Products />} />
           <Route path="clients" element={<Clients />} />
           <Route path="technologies" element={<Technologies />} />
+          <Route path="career" element={<Career />} />
           <Route path="contact-us" element={<Contactus />} />
         </Routes>
         <Footer/>

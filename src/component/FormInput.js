@@ -27,6 +27,7 @@ export function FormInput(props) {
     <div>
      
       <input
+        type={props.type}
         className="form-control"
         value={inputValue}
         placeholder={props.placeholder}

@@ -6,6 +6,7 @@ import logo_lst_1 from '../images/home-logo-1.jpg';
 import logo_lst_2 from '../images/home-logo-2.jpg';
 import logo_lst_3 from '../images/home-logo-3.jpg';
 import logo_lst_4 from '../images/home-logo-4.jpg';
+import logo_lst_5 from '../images/home-logo-5.jpg';
 import choose_us_1 from '../images/choose-icon-1.jpg';
 import choose_us_2 from '../images/choose-icon-2.jpg';
 import choose_us_3 from '../images/choose-icon-3.jpg';
@@ -16,6 +17,8 @@ import maj_box_3 from '../images/service-3.jpg';
 import maj_box_4 from '../images/service-4.jpg';
 import maj_box_5 from '../images/service-5.jpg';
 import maj_box_6 from '../images/service-6.jpg';
+import maj_box_7 from '../images/service-7.jpg';
+import maj_box_8 from '../images/service-8.jpg';
 import products_img from '../images/product-left.jpg';
 import products_img_1 from '../images/train-icon.png';
 import products_img_2 from '../images/hvac-icon.png';
@@ -65,8 +68,8 @@ function home () {
     <ul>
     <li><img src={logo_lst_1}/></li>
     <li><img src={logo_lst_2}/></li>
-    <li><img src={logo_lst_3}/></li>
-    <li><img src={logo_lst_4}/></li>
+    <li><img src={logo_lst_3}/></li> 
+    <li><img src={logo_lst_5}/></li>
     </ul> 
     </div>
 
@@ -146,35 +149,19 @@ function home () {
     <Row> 
 
     <div className='col-lg-4'>
-    <div className='major-box text-start' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-    <img src={maj_box_1}/>
-    <div className='maj-content'>
-    <span>
-    <h4>Metal Punching</h4>
-    <p>Our punching department delivers quality-assured parts and has lights-out automation capabilities.</p>
-    </span>
-    </div>
-    <div className="maj-content-1">
-    <Link to='services'>Read More</Link>
-    </div>
-    </div>
-    </div> 
-
-    <div className='col-lg-4'>
     <div className='major-box text-start' data-aos="fade-down" data-aos-duration="1000" data-aos-delay="200">
     <img src={maj_box_2}/>
     <div className='maj-content'>
     <span>
     <h4>Laser Cutting</h4>
-    <p>We offer a variety of valuable services, from design assistance to shipping and logistics.
-</p>
+    <p>We offer a variety of valuable services, from design assistance to shipping and logistics.</p>
     </span>
     </div>
     <div className="maj-content-1">
     <Link to='services'>Read More</Link>
     </div>
     </div>
-    </div>   
+    </div>  
 
     <div className='col-lg-4'>
     <div className='major-box text-start' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
@@ -182,40 +169,67 @@ function home () {
     <div className='maj-content'>
     <span>
     <h4>Laser Welding</h4>
-    <p>Our certified welding department has MIG, TIG, and robotic welding capabilities.
-</p>
+    <p>Our certified welding department has MIG, TIG, and robotic welding capabilities.</p>
     </span>
     </div>
     <div className="maj-content-1">
     <Link to='services'>Read More</Link>
     </div>
     </div>
-    </div> 
+    </div>  
+
+    <div className='col-lg-4'>
+    <div className='major-box text-start' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+    <img src={maj_box_6}/>
+    <div className='maj-content'>
+    <span>
+    <h4>Spot Welding</h4>
+    <p>We are capable of machining a vast assortment of parts and assemblies with guaranteed quality.</p>
+    </span>
+    </div>
+    <div className="maj-content-1">
+    <Link to='services'>Read More</Link>
+    </div>
+    </div>
+    </div>  
+
+    <div className='col-lg-4'>
+    <div className='major-box text-start' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+    <img src={maj_box_7}/>
+    <div className='maj-content'>
+    <span>
+    <h4>Bending</h4>
+    <p> </p>
+    </span>
+    </div>
+    <div className="maj-content-1">
+    <Link to='services'>Read More</Link>
+    </div>
+    </div>
+    </div>  
+
+    <div className='col-lg-4'>
+    <div className='major-box text-start' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+    <img src={maj_box_8}/>
+    <div className='maj-content'>
+    <span>
+    <h4>Shearing</h4>
+    <p> </p>
+    </span>
+    </div>
+    <div className="maj-content-1">
+    <Link to='services'>Read More</Link>
+    </div>
+    </div>
+    </div>      
 
     <div className='col-lg-4'>
     <div className='major-box text-start' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-    <img src={maj_box_4}/>
+    <img src={maj_box_1}/>
     <div className='maj-content'>
     <span>
-    <h4>Powder Coating</h4>
-    <p>Our painting and powder coating services provide a wide range of durable finishes and textures.
-</p>
-    </span>
-    </div>
-    <div className="maj-content-1">
-    <Link to='services'>Read More</Link>
-    </div>
-    </div>
-    </div> 
-
-    <div className='col-lg-4'>
-    <div className='major-box text-start' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-    <img src={maj_box_5}/>
-    <div className='maj-content'>
-    <span>
-    <h4>Metal Forming</h4>
-    <p>From our robotic bending systems to our lights-out automation, we have the equipment and capacity to meet any forming needs.
-</p>
+    <h4>Turret Punching</h4>
+    <p>Our punching department delivers quality-assured parts and has lights-out automation capabilities.</p>
     </span>
     </div>
     <div className="maj-content-1">
@@ -223,22 +237,6 @@ function home () {
     </div>
     </div>
     </div>   
-
-    <div className='col-lg-4'>
-    <div className='major-box text-start' data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
-    <img src={maj_box_6}/>
-    <div className='maj-content'>
-    <span>
-    <h4>Machining</h4>
-    <p>We are capable of machining a vast assortment of parts and assemblies with guaranteed quality.
-</p>
-    </span>
-    </div>
-    <div className="maj-content-1">
-    <Link to='services'>Read More</Link>
-    </div>
-    </div>
-    </div>    
 
     </Row>
 
@@ -256,7 +254,7 @@ function home () {
     <div className='projects-completed' data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
     <img src={products_img}/>
     <div className='prdt-detls'>
-    <h4>100+ PROJECTS COMPLETED</h4>
+    <h4>500+ PROJECTS COMPLETED</h4>
     <p>Delivered efficient and innovative solutions with a<br></br> competitive edge</p> 
     </div>
     <div className="arrow-down"></div>
@@ -317,29 +315,29 @@ function home () {
     </div>
 
     <ul>
-    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-    <img src={serve_1}/> 
-    <h4>Energy Sector</h4>  
-    </li>
     <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
-    <img src={serve_2}/> 
-    <h4>Food Industries</h4>  
-    </li>
-    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
-    <img src={serve_3}/> 
-    <h4>Aerospace</h4>  
+    <img src={serve_6}/> 
+    <h4>Railway </h4>  
     </li>
     <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
     <img src={serve_4}/> 
     <h4>Metro Rail</h4>  
     </li>
     <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+    <img src={serve_3}/> 
+    <h4>Aerospace</h4>  
+    </li>
+    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
     <img src={serve_5}/> 
     <h4>Elevator</h4>  
     </li>
+    <li data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+    <img src={serve_1}/> 
+    <h4>Electrical</h4>  
+    </li>
     <li data-aos="fade-down" data-aos-duration="1000" data-aos-delay="400">
-    <img src={serve_6}/> 
-    <h4>Railway </h4>  
+    <img src={serve_2}/> 
+    <h4>Food Industries</h4>  
     </li>
     </ul>
 
@@ -379,35 +377,15 @@ Leading Names</h3>
       <div className='testimonal-dtlias'>
       <div className='testim-head align-self-center'>
       <img src={cln_imge_1}/>
-      <h4>Malcolm Franzcrip
-      <span>Contractor</span></h4>
+      <h4>Metalscope India Private Limited
+      <span>puducherry</span></h4>
       </div>
       <div className='testim-bdoy'>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 1500s, when an unknown printer took a  text everLorem Ipsum has been the industry's standard dummy text ever.</p>
+      <p>Special Products has a very unique and special approach to their product offering, Vision, Mission, and planning around their capacity. The inspection technology, processes, and techniques used by Dynamic Air Quality department are impressive. I was very impressed with the overall manufacturing process method, as well as the Continuous Improvement and clear vision of Dynamic Air.</p>
       </div>
       </div>
 
-      <div className='testimonal-dtlias'>
-      <div className='testim-head align-self-center'>
-      <img src={cln_imge_1}/>
-      <h4>Malcolm Franzcrip
-      <span>Contractor</span></h4>
-      </div>
-      <div className='testim-bdoy'>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 1500s, when an unknown printer took a  text everLorem Ipsum has been the industry's standard dummy text ever.  </p>
-      </div>
-      </div> 
-
-      <div className='testimonal-dtlias'>
-      <div className='testim-head align-self-center'>
-      <img src={cln_imge_1}/>
-      <h4>Malcolm Franzcrip
-      <span>Contractor</span></h4>
-      </div>
-      <div className='testim-bdoy'>
-      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has 1500s, when an unknown printer took a  text everLorem Ipsum has been the industry's standard dummy text ever.  </p>
-      </div>
-      </div>
+       
 
     </Slider>
     </div>

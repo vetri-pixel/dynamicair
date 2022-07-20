@@ -17,6 +17,7 @@ import client_image_12 from '../images/client-12.png';
 import client_image_13 from '../images/client-13.png'; 
 import client_image_14 from '../images/client-14.png'; 
 import client_image_15 from '../images/client-15.png'; 
+import client_image_16 from '../images/client-16.png'; 
 
 export default function Clients() {
   return (
@@ -72,6 +73,7 @@ manufacturing and engineering challenges across various industries.</h4></div>
     <li><img src={client_image_13}/></li>    
     <li><img src={client_image_14}/></li>    
     <li><img src={client_image_15}/></li>    
+    <li><img src={client_image_16}/></li>    
     </ul>    
     </div>
 

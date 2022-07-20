@@ -59,7 +59,7 @@ export default function Products() {
     <h3>Enabling Highly Advanced Technology</h3>
     </div>
     <div className='common-third-title' data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
-    <h4>Lorem Ipsum is simply dummy text of the printing and typesetting industry </h4>
+    <h4> </h4>
     </div>
     </Col>
     </Row>
@@ -124,11 +124,12 @@ export default function Products() {
     <div className='tech-props'>
     <div className='tech-mage'>
     <img src={tech_mage_4}/>
-    <div className='tech-cont'>
+    <div className='tech-cont ltl-lrge'>
     <h4>CNC Turret Punch Press Machine</h4>
     <p>
     <b>Make:</b> AMADA, Japan | Model No: AE2510NT | Press Capacity - 20 TON| Tool Storage – 58 Stations <br></br> 
     <b>Thickness:</b> Mild Steel – 6mm Max. | Stainless Steel – 3mm Max. | Aluminium – 6mm Max. <br></br>
+    <b>punching Capacity:</b> ( L X W X T ) = 2500 X 1250 X 3mm. <br></br>
     </p>
     </div>
     </div>

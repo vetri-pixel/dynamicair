@@ -37,7 +37,7 @@
 }
 
 
-.navbar-nav a{margin-left: 35px;padding:15px!important;font-weight: 500;text-transform: uppercase;font-size: 14px;color:rgba(0,0,0,.55);}
+.navbar-nav a{margin-left: 15px;padding:15px!important;font-weight: 500;text-transform: uppercase;font-size: 14px;color:rgba(0,0,0,.55);}
 
 .navbar-nav a:hover{color:#00aeef;}
 .navbar-light .navbar-nav .nav-link:hover{color:#00aeef !important;}
@@ -86,9 +86,16 @@
 
 .logos-lists ul{padding: 0px;margin: 0px;}
 
-.logos-lists ul li{display: inline-block;margin-right: 35px;position: relative;}
+.logos-lists ul li {
+  display: inline-block;
+  margin: 0px 10px;
+  position: relative;
+  width: 16%;
+}
 
-.logos-lists ul li:before{position: absolute;content: "";right:-18px;top:0;height: 65px;width:1px;background-color: #dedede;}
+.logos-lists ul li img{width:100%}
+
+.logos-lists ul li:before{position: absolute;content: "";right:-10px;top:0;height: 65px;width:1px;background-color: #dedede;}
 
 .logos-lists ul li:last-child:before{display: none;}
 
@@ -233,6 +240,7 @@
   .clnete-lsts ul li:nth-child(12){border-right: 0px;}
   .clnete-lsts ul li:nth-child(13){border-bottom: 0px;}
   .clnete-lsts ul li:nth-child(14){border-bottom: 0px;}
+  .clnete-lsts ul li:nth-child(15){border-bottom: 0px;}
   .clnete-lsts ul li:last-child{border: 0px;}
 
   .clnete-lsts ul li img{filter: grayscale(100%);opacity:0.5;transition: all 0.5s ease;width:50%;padding: 15px;}
@@ -310,10 +318,44 @@
     left: 2.3px;
   }
 
-  .our-clients .common-title{margin-top: 45px;}
+  .our-clients .common-title{margin-top:0;}
 
   video::-webkit-media-controls {
   display: none !important;
+}
+
+.career-frm{padding: 30px 50px;border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.05);background-color: #fff;}
+
+  .career-frm input{margin-bottom: 15px;}
+
+.career-frm h4 {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600;
+  color: #6d6e71;
+  font-size: 28px;
+  text-transform: uppercase;
+  display:block;
+  margin-bottom: 20px;
+}
+
+.career-frm [type="button"], .career-frm button {
+  background-color: #00aeef;
+  border: none;
+  color: #fff;
+  display: inline-block;
+  font-family: Poppins,sans-serif !important;
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 20px;
+  padding: 10px 34px;
+  transition: all .5s ease;
+}
+
+.career-frm [type="button"]:hover, .career-frm button:hover {
+  background-color: #6d6e71;
+  color: #fff;
+  transition: all .5s ease;
 }
 
 .footer{background:rgba(0, 0, 0, 0) url("./images/footer.jpg") no-repeat scroll 0 0; 
@@ -472,6 +514,10 @@ section.copywrite{padding:10px 0px;}
       border: none;transition: all 0.5s ease;
     }
 
+    .vison ul{padding: 0px;margin: 0px;}
+    .vison ul li{display: inline-block;padding: 0px;margin: 0px;width:100%;position: relative;padding-left: 25px;margin-bottom: 10px;color:#959595;}
+    .vison ul li img{position: absolute;left:0;top:2px;}
+
     .get-intoch [type="button"]:hover, .get-intoch button:hover{background-color: #6d6e71;
       color: #fff;transition: all 0.5s ease;}
 
@@ -483,6 +529,16 @@ section.copywrite{padding:10px 0px;}
         background-color: #00aeef;
         display: inline-block;margin-top: 5px;
         border: none;transition: all 0.5s ease;
+      }
+
+      .google-map-code h4 {
+        font-family: 'Poppins', sans-serif !important;
+        font-weight: 600;
+        color: #6d6e71;
+        font-size: 22px;
+        text-transform: uppercase;
+        display: block;
+        margin-bottom: 20px;
       }
   
       .form-sector [type="button"]:hover, .form-sector button:hover{background-color: #6d6e71;
@@ -545,6 +601,9 @@ section.copywrite{padding:10px 0px;}
     .tech-props:after{position: absolute;content: "";left:0;bottom:0;width:5px;height:50px;background:#00aeef;transition: all 0.5s ease;}
 
     .tech-props:hover .tech-cont{bottom:120px;transition: all 0.5s ease;}
+
+    .tech-props:hover .tech-cont.ltl-lrge {
+      bottom: 100px;}
     
     .tech-props:hover:before{transition: all 0.5s ease;opacity: 0.85;}
 
@@ -556,6 +615,8 @@ section.copywrite{padding:10px 0px;}
       left: 25px;transition: all 0.5s ease;min-height:150px;
       padding-right: 25px;
     }
+
+   .tech-cont.ltl-lrge{bottom: -140px;}
 
     .tech-cont h4{font-family: 'Poppins', sans-serif !important;
       font-weight: 600;
